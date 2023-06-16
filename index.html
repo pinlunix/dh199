@@ -1,125 +1,792 @@
-<h1><strong>DH199 Project: Sharing the Meaning of Music</strong></h1>
-<hr>
-<h2>Design Statement</h2>
-<p>Music listeners need a way to feel emotionally connected to others through their shared experiences and memories with music in their lives because there are limits with music listening services on the user experience for engaging in shared memory and meaning of music.</p>
+<head>
+  <title>DH199 Project: Sharing the Meaning of Music</title>
+  <style>
+    table,
+    th,
+    td {
+      padding: 10px;
+      border: 1px solid black;
+      border-collapse: collapse;
+    };
+  </style>
+</head>
+<body>
+  <h1><strong>DH199 Project: Sharing the Meaning of Music</strong></h1>
+  <hr>
+  <h2>Design Statement</h2>
+    <p>Music listeners need a way to feel emotionally connected to others through their shared experiences and memories with music in their lives
+      because there are limits with music listening services on the user experience for engaging in shared memory and meaning of music.
+    </p>
 
-<h2>Introduction</h2>
-<div>
-<p>
-This study explores the relationship between music, human emotions, and memory. Music plays a prominent role in everyday life for many people (Jäncke, 2008). People listen to music throughout the day through technologies such as radio and audio recordings. Music takes many 
-forms throughout people’s daily lives: music as part of collective cultural memory and identity, music as a method of creating a sense of belonging, and music as a connection between an individual to a larger community and generation (Dijck, 2006). Studies have shown that 
-there is an association between memories and emotions to form autobiographical memories. One study examined the emotions that are evoked when hearing musical pieces from one’s past. The study found that most songs evoked various strong emotions, which were mainly positive 
-such as nostalgia (Jäncke, 2008).
-</p>
+  <h2>Introduction</h2>
+  <div>
+    <p>
+    This study explores the relationship between music, human emotions, and memory. Music plays a prominent role in everyday life for many people (Jäncke, 2008). 
+    People listen to music throughout the day through technologies such as radio and audio recordings. Music takes many forms throughout people’s daily lives: 
+    music as part of collective cultural memory and identity, music as a method of creating a sense of belonging, and music as a connection between an individual 
+    to a larger community and generation (Dijck, 2006). Studies have shown that there is an association between memories and emotions to form autobiographical 
+    memories. One study examined the emotions that are evoked when hearing musical pieces from one’s past. The study found that most songs evoked various strong 
+    emotions, which were mainly positive such as nostalgia (Jäncke, 2008).
+    </p>
 
-<p>
-Music streaming services today have community features, such as sharing, for users to actively engage with the community through the shared interest in music. Some examples of this are sharing a playlist of songs with a friend or leaving a comment on a song. However, these
-community features vary across different apps, thus limiting how deep individuals become engaged with the community. Taking into account the strengths and limitations of current music streaming apps, the project will aim towards creating an app that focuses on enhancing 
-community features where individuals can share their emotions, memories, or experiences with music in their lives with others in the community.
-</p>
-</div>
+    <p>
+    Music streaming services today have community features, such as sharing, for users to actively engage with the community through the shared interest in music. 
+    Some examples of this are sharing a playlist of songs with a friend or leaving a comment on a song. However, these community features vary across different apps, 
+    thus limiting how deep individuals become engaged with the community. Taking into account the strengths and limitations of current music streaming apps, the 
+    project will aim towards creating an app that focuses on enhancing community features where individuals can share their emotions, memories, or experiences with 
+    music in their lives with others in the community.
+    </p>
+  </div>
 
-<h2>Literature Review</h2>
-<div>
-<p>
-Music is strongly intertwined with memories, being attached to events of the past, accompanied by sights, sounds, and feelings from a specific event. A cognitive research study examining the ties between music, memories of autobiographical events, and emotions found that 
-young adults tie in recorded music with memories of specific autobiographical events, whereas respondents who indicated an age over 45 tend to tie specific songs to nostalgic moods (Dijck, 2006). Another study confirmed these observations about the relationship between 
-musical memory and emotions, arguing that music evokes memories of youth and reminds people of past events, thus intensifying feelings of nostalgia, regret, or reminiscence (Dijck, 2006). 
-</p>
+  <h2>Literature Review</h2>
+  <div>
+    <p>
+    Music is strongly intertwined with memories, being attached to events of the past, accompanied by sights, sounds, and feelings from a specific event. A cognitive 
+    research study examining the ties between music, memories of autobiographical events, and emotions found that young adults tie in recorded music with memories of 
+    specific autobiographical events, whereas respondents who indicated an age over 45 tend to tie specific songs to nostalgic moods (Dijck, 2006). Another study 
+    confirmed these observations about the relationship between musical memory and emotions, arguing that music evokes memories of youth and reminds people of past 
+    events, thus intensifying feelings of nostalgia, regret, or reminiscence (Dijck, 2006). 
+    </p>
 
-<p>
-Autobiographical memories exist in different levels of detail. The broader level of detail describes it as periods in one’s lifetime. The finer level of specificity is knowledge of specific events (Janata et al., 2007). When thinking about autobiographical memories for 
-music, one way to think about it is the retrieval of information about the music, such as the title of the song, the artist, or the time period it was popular. However, without these pieces of information, we can still relive the memories and emotions tied with a piece 
-of music just by listening to it. In many cases, the music piece becomes stored in memory during an event without the need of knowing the song’s title. In a study focusing on the characteristics of autobiographical memories evoked by music, it was observed from written 
-responses that there was a large range of memories associated with music. Some descriptions are of specific events that happened in association with the music, such as waiting at a red light in the car with a high school friend. Other descriptions tied music to social 
-relationships, such as friends or significant others. There are also responses where the participant tied different songs to specific moments in their life, such as stages of a romantic relationship while they were young (Janata et al., 2007). The different levels of 
-specificity tied to the memory of a song varies across individuals, but a common theme is that the music means something to the individual, whether trivial or not.
-</p>
+    <p>
+    Autobiographical memories exist in different levels of detail. The broader level of detail describes it as periods in one’s lifetime. The finer level of 
+    specificity is knowledge of specific events (Janata et al., 2007). When thinking about autobiographical memories for music, one way to think about it is the 
+    retrieval of information about the music, such as the title of the song, the artist, or the time period it was popular. However, without these pieces of information, 
+    we can still relive the memories and emotions tied with a piece of music just by listening to it. In many cases, the music piece becomes stored in memory during 
+    an event without the need of knowing the song’s title. In a study focusing on the characteristics of autobiographical memories evoked by music, it was observed 
+    from written responses that there was a large range of memories associated with music. Some descriptions are of specific events that happened in association with 
+    the music, such as waiting at a red light in the car with a high school friend. Other descriptions tied music to social relationships, such as friends or significant 
+    others. There are also responses where the participant tied different songs to specific moments in their life, such as stages of a romantic relationship while they 
+    were young (Janata et al., 2007). The different levels of specificity tied to the memory of a song varies across individuals, but a common theme is that the music 
+    means something to the individual, whether trivial or not.
+    </p>
 
-<p>
-Technological advancements have led to the ability to preserve and archive music in physical and digital formats. Music streaming apps today are an ever-growing archive of music from around the world. It acts as an archive of music from the past, but also continues 
-growing for music constantly being created in the present. Due to the continuous growth of music, apps are caught between their own purpose in the app’s design and the desires of the user. Keeping in mind the complex ties between music, memory, and human emotions, users 
-may tend to feel drawn towards finding music from their past, while the app is designed to push users toward exploring music. A case study on Spotify by Marika Lüders in the European Journal of Cultural Studies focuses on defining what Spotify ‘wants’ and what humans 
-want. The study characterizes Spotify’s features into two categories: material and machine agency. Machine agency features include recommendation algorithms. Material features include browsing music, connecting with friends, editing playlists, and saving albums and 
-artists. The purpose of pushing people towards exploring music is done through the machine agency, whereas the personal and mnemonic meaning of music is supported by material features (Lüders, 2021).
-</p>
+    <p>
+    Technological advancements have led to the ability to preserve and archive music in physical and digital formats. Music streaming apps today are an ever-growing 
+    archive of music from around the world. It acts as an archive of music from the past, but also continues growing for music constantly being created in the present. 
+    Due to the continuous growth of music, apps are caught between their own purpose in the app’s design and the desires of the user. Keeping in mind the complex ties 
+    between music, memory, and human emotions, users may tend to feel drawn towards finding music from their past, while the app is designed to push users toward 
+    exploring music. A case study on Spotify by Marika Lüders in the European Journal of Cultural Studies focuses on defining what Spotify ‘wants’ and what humans 
+    want. The study characterizes Spotify’s features into two categories: material and machine agency. Machine agency features include recommendation algorithms. 
+    Material features include browsing music, connecting with friends, editing playlists, and saving albums and artists. The purpose of pushing people towards exploring 
+    music is done through the machine agency, whereas the personal and mnemonic meaning of music is supported by material features (Lüders, 2021).
+    </p>
 
-<p>
-The study interviewed participants on their experiences with different features of Spotify. Participants found the accessibility to vast music libraries made them more inclined to explore and discover music. However, being able to access and explore a vast amount of 
-music leads to ephemeral listening-patterns, where users described themselves losing focus to finish listening to an album and jumping quickly between songs. One user compared the experience of buying a CD and listening to it in a certain setting in contrast with being 
-able to pick songs at random on music streaming services. They explained how the short-attention span with listening to music makes it difficult to associate songs or albums with certain occasions or memories. This indicates the design to explore in Spotify may be leading 
-to a loss in the sentiments of associating memories with music (Lüders, 2021). Actions that counteract this design is the user’s will to archive. The feature of creating playlists acts as a primary instrument for users to archive music that matters to them. It is akin to 
-the physical act of collecting CDs and other physical music recordings.
-</p>
+    <p>
+    The study interviewed participants on their experiences with different features of Spotify. Participants found the accessibility to vast music libraries made them 
+    more inclined to explore and discover music. However, being able to access and explore a vast amount of music leads to ephemeral listening-patterns, where users 
+    described themselves losing focus to finish listening to an album and jumping quickly between songs. One user compared the experience of buying a CD and listening 
+    to it in a certain setting in contrast with being able to pick songs at random on music streaming services. They explained how the short-attention span with 
+    listening to music makes it difficult to associate songs or albums with certain occasions or memories. This indicates the design to explore in Spotify may be leading 
+    to a loss in the sentiments of associating memories with music (Lüders, 2021). Actions that counteract this design is the user’s will to archive. The feature of 
+    creating playlists acts as a primary instrument for users to archive music that matters to them. It is akin to the physical act of collecting CDs and other physical 
+    music recordings.
+    </p>
 
-<p>
-By documenting the role of music in human memories and emotions and the potential limitations of community-related features of current music streaming services, this project is aimed to develop a user experience that engages music more closely with the autobiographical 
-memories and emotions of individuals and introducing useful features to bring individuals closer together through the shared experiences of listening to music.
-</p>
-</div>
+    <p>
+    By documenting the role of music in human memories and emotions and the potential limitations of community-related features of current music streaming services, 
+    this project is aimed to develop a user experience that engages music more closely with the autobiographical memories and emotions of individuals and introducing 
+    useful features to bring individuals closer together through the shared experiences of listening to music.
+    </p>
+  </div>
 
-<h2>Competitive Analysis</h2>
-<div>
-<p>
-Before working on a design, I first examined popular music streaming apps to understand what services many people use to listen to music. This competitive analysis serves as a method to help me understand the design of the most widely used music streaming services. 
-The rankings of the top 5 music streaming apps are ranked on total number of users and paid subscribers from 2023 statistics summarized on BusinessofApps database overview for “Music Streaming App Revenue and Usage Statistics (2023)”. The remaining 2 apps were chosen 
-based on features that focused on the experience of sharing music with others. It was difficult to pinpoint apps that largely focused on community features for music due to the many mainstream music listening services across the globe. By choosing apps from the popular 
-end of the spectrum to the niche side, a cross comparison analysis can be conducted.
-</p>
-<table>
-  <tr>
-    <th>Table 1: UX Analysis of Music Streaming Apps and Services</th>
-  </tr>
-  <tr>
-    <th>App Name</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>1. Spotify</td>
-    <td>Spotify is a digital music, podcast, and video service with massive growing libraries of songs and content by creators around the world. Spotify is a free app but offers premium subscriptions for an ad-free listening experience. Its features include recommendation algorithms based on an individual’s music taste, creating playlists either individually or collaboratively, and connecting with friends on the platform. When launching the app, users are greeted by the front page listing their most recently listened to media, playlist compilations based on media the user has listened to, and recommendations for exploring other artists and creators. The front page is a convenient hub for the user to re-engage with their last activity on the app and to further explore. If the user is connected with friends on the platform, the user can see what media their friends are currently listening to.</td>
-  </tr>
-  <tr>
-    <td>2. Apple Music</td>
-    <td>Apple Music is a subscription-based music streaming service. Users pay a flat fee, unlocking Apple Music’s extensive song library. Apple Music has four subscription plans: Voice $4.99/mo, Student $5.99/mo, Individual $10.99/mo, and Family $16.99/mo. Its features include live radio stations, curated playlists, and music recommendations. Apple Music distinguishes itself from other music streaming services with its radio stations and curated playlists features. The radio stations feature broadcasts of songs, pop culture news, and interviews with artists. When opening the app, the user is greeted with a feed showing playlists, artist recommendations, and radio stations. Some other features the app has includes editing playlists and sharing songs or playlists. Apple Music puts a focus on guiding the user to discover new music in a curated fashion.</td>
-  </tr>
-  <tr>
-    <td>3. Amazon Music</td>
-    <td>Amazon Music is a music streaming service that is available for free or through paid subscription plans. Subscriptions range from free to premium Music Unlimited tier, each higher tier offering benefits such as being ad-free or having better sound quality. Amazon Music features a massive amount of current and back-catalog songs and albums. Features of the app include playlist creation and sharing, music recommendations based on listening habits, and hi-resolution lossless audio. The Amazon Music interface is well organized and feels familiar to users who regularly engage with Spotify’s interface. The home page features the user’s frequently played content, suggestions for discovery, and playlists created based on the user’s listening habits. An unique feature of Amazon Music is that users can check the audio quality of the songs they listen to. Like other apps, Amazon Music also has sharing features.</td>
-  </tr>
-  <tr>
-    <td>4. YouTube</td>
-    <td>YouTube is a free video sharing website. YouTube is often used to play music, search for songs, and assemble playlists. Recently, YouTube launched its music service YouTube Music featuring official albums, videos, live performances, and more. YouTube Music comes for free with ads, but also offers different subscription plans. A defining feature of YouTube Music in comparison to other music streaming services is its music videos. Users who enjoy music videos may find YouTube Music to be a favorable option. YouTube Music also has recommendation features curated to the user through algorithms. When launching the app, the front page features a selection of music to “get you started”, playlists featuring songs and artists the user enjoys, playlists of music the user has not listened to in a while, playlists made by the community, newly released music, radios, and more. YouTube Music’s front page seems to pack in a lot for the user to explore music, revisit past favorites, and get to know the music of other community members.</td>
-  </tr>
-  <tr>
-    <td>5. Pandora</td>
-    <td>Pandora is a music streaming and discovery app. Pandora comes for free, but also offers paid subscription plans. A main feature of Pandora is its radio stations. It lets users create “stations” based on their favorite songs, artists, or genres, in which the stations will play related songs. The user is given the ability to pick and choose which songs they like or dislike in the station, which will adjust the station to play more of the songs the user likes. Similar to other music apps, users can also share their favorite songs and stations to social media. There are limitations to the sharing features depending on the plan the user has. The free and Pandora Plus plan do not include the ability to make and share playlists. Only the Pandora Premium plan includes this feature.</td>
-  </tr>
-  <tr>
-    <td>6. Musicboard</td>
-    <td>Musicboard is a social platform that allows users to keep track of music they listen to and actively engage with the music they listen to through various action features. Musicboard comes for free or with a paid subscription plan that caters to the user’s profile and review features. Musicboard has features that focus on letting users connect through their shared interest in music. Musicboard has features such as writing reviews and rating music. These features allow users to share their thoughts on music with other community members. Musicboard also allows users to stay up to date with newly released music and has music sections aimed at encouraging users to discover new music and new artists.</td>
-  </tr>
-  <tr>
-    <td>7. Makromusic</td>
-    <td>Makromusic is a social platform that focuses on matching users with other people that share the same music taste. Users can find other people who are listening to the same music at the same time as the user. Then the user can match and open a chatroom with the other user. The concept of matching users together is often seen in social dating apps. Applying it in a musical context is a unique concept that this app attempts to execute. However, the app faces issues such as a small user base. There are also reviews that complain about the paywall that comes with using the app to its fullest potential.</td>
-  </tr>
-</table>
-</div>
+  <h2>Competitive Analysis</h2>
+  <div>
+    <p>
+      I examined popular music streaming apps to understand what services many people use to listen to music. This competitive analysis serves as a method to help me 
+      understand the design of the most widely used music streaming services. The rankings of the top 5 music streaming apps are ranked on total number of users and 
+      paid subscribers from 2023 statistics summarized on BusinessofApps database overview for “Music Streaming App Revenue and Usage Statistics (2023)”. I chose two 
+      other apps based on features focused on the experience of sharing music with others. By choosing apps from the popular end of the spectrum to the niche side, 
+      a cross comparison analysis can be conducted.
+    </p>
+    <table>
+      <tr>
+        <th colspan="2">Table 1: Competitive Analysis of Music Apps</th>
+      </tr>
+      <tr>
+        <th>App Name</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <th>Spotify</th>
+        <td>
+          <p>
+            Spotify is a digital music, podcast, and video service with massive growing libraries of songs and content by creators around the world. 
+            App characteristics include:
+            <ul>
+              <li>Free and premium subscriptions</li>
+              <li>Recommendation algorithms based on an individual’s music taste</li>
+              <li>Creating playlists either individually or collaboratively</li>
+              <li>Connect with friends</li>
+            </ul>
+            The app’s launch page lists a user’s most recently listened to media, playlist compilations based on media the user has listened to, and recommendations 
+            for exploring other artists and creators. The front page is a convenient hub for the user to re-engage with their last activity on the app and 
+            to further explore.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <th>Apple Music</th>
+        <td>
+          <p>
+            Some characteristics of Apple Music:
+            <ul>
+              <li>Paid subscription only</li>
+              <li>Live radio stations</li>
+              <li>Curated playlists</li>
+            </ul>
+            Apple Music distinguishes itself from other music streaming services with its radio stations and curated playlists features. The radio stations feature 
+            song broadcasts, pop culture news, and artist interviews. When opening the app, the user is greeted with a feed showing playlists, artist recommendations, 
+            and radio stations. Apple Music focuses on guiding the user to discover new music in a curated fashion.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <th>Amazon Music</th>
+        <td>
+          <p>
+            Amazon Music features a massive amount of current and back-catalog songs and albums. Some characteristics of Amazon Music:
+            <ul>
+              <li>Free and premium subscriptions</li>
+              <li>Playlist creation and sharing</li>
+              <li>Recommendation algorithms based on listening habits</li>
+              <li>Hi-resolution lossless audio</li>
+            </ul>
+            Users can check the audio quality of the songs they listen to.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <th>YouTube</th>
+        <td>
+          <p>
+            YouTube is a video sharing website and often used to play music, search for songs, and assemble playlists. Recently, YouTube 
+            launched its music service YouTube Music featuring official albums, videos, live performances, and more. Characteristics of YouTube Music:
+            <ul>
+              <li>Free and premium subscriptions</li>
+              <li>Music videos</li>
+              <li>Recommendation algorithms based on listening habits</li>
+              <li>Hi-resolution lossless audio</li>
+            </ul>
+            The front page features a selection of music to “get you started”, playlists featuring songs and artists the user enjoys, playlists of music 
+            the user has not listened to in a while, playlists made by the community, newly released music, radios, and more. YouTube Music’s front page seems 
+            to pack in a lot for the user to explore music, revisit past favorites, and get to know the music of other community members.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <th>Pandora</th>
+        <td>
+          <p>
+            Pandora is a music streaming and discovery app. Characteristics of Pandora:
+            <ul>
+              <li>Free and premium subscriptions</li>
+              <li>Radio stations</li>
+            </ul>
+            Users can create “stations” based on their favorite songs, artists, or genres, in which the stations will play related songs. The user can like or 
+            dislike songs in the station to adjust the songs it plays.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <th>Musicboard</th>
+        <td>
+          <p>
+            Musicboard is a social platform that allows users to keep track of music they listen to and actively engage with the music they listen to through 
+            various action features. Characteristics of Musicboard:
+            <ul>
+              <li>Free and premium subscriptions</li>
+              <li>Write reviews</li>
+              <li>Rate Music</li>
+            </ul>
+            Users can share their thoughts on music with other community members.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <th>Makromusic</th>
+        <td>
+          <p>
+            Makromusic is a social platform that focuses on matching users with other people that share the same music taste. Characteristics of Musicboard:
+            <ul>
+              <li>Free and premium subscriptions</li>
+              <li>Match with people</li>
+            </ul>
+            Users can match with people who are listening to the same music at the same time as the user. The user can then open a chatroom with the match. 
+            This is similar to social dating apps. Applying it in a musical context is a unique concept that this app attempts to execute.
+          </p>
+        </td>
+      </tr>
+    </table>
+    <p>
+      Here is a table of features the apps have, providing a visual of common features among music apps and features unique to a few apps.
+    </p>
+    <table>
+      <tr>
+        <th colspan="8">Table 2: Features in Music Apps</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>Spotify</th>
+        <th>Apple Music</th>
+        <th>Amazon Music</th>
+        <th>YouTube</th>
+        <th>Pandora</th>
+        <th>Musicboard</th>
+        <th>Makromusic</th>
+      </tr>
+      <tr>
+        <th>Music Player</th>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Music Sharing</th>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Create Playlist</th>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Friends/Following List</th>
+        <td>X</td>
+        <td>X</td>
+        <td></td>
+        <td></td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+      </tr>
+      <tr>
+        <th>Live Radio</th>
+        <td></td>
+        <td>X</td>
+        <td></td>
+        <td>X</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Sound Quality</th>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Music Video</th>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Recommendations</th>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+      </tr>
+      <tr>
+        <th>Write Reviews</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>X</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Leave Rating</th>
+        <td>X</td>
+        <td>X</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>X</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Chat with Other Users</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+      </tr>
+      <tr>
+        <th>Free/Paid/Both</th>
+        <td>Both</td>
+        <td>Paid</td>
+        <td>Both</td>
+        <td>Both</td>
+        <td>Both</td>
+        <td>Both</td>
+        <td>Both</td>
+      </tr>
+    </table>
+    <p>
+      All the apps offer paid subscription plans. The following table lists out features offered by the paid subscription plans across all apps. 
+      By observation, many of the apps share similar features in their paid plans.
+    </p>
+    <table>
+      <tr>
+        <th colspan="8">Table 2: Features in Music Apps</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>Features for Paid Subscription</th>
+      </tr>
+      <tr>
+        <th>Spotify</th>
+        <td>
+          <ul><li>Download music</li>
+          <li>Ad-free listening</li>
+          <li>On mobile, pick and lay song on-demand</li>
+          <li>Unlimited skips</li>
+        </ul>  
+        </td>
+      </tr>
+      <tr>
+        <th>Apple Music</th>
+        <td>
+          <ul>
+            <li>Ad-free listening</li>
+            <li>Audio quality features</li>
+            <li>Compatible features across Apple devices</li>
+            <li>See friends activity</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>Amazon Music</th>
+        <td>
+          <ul>
+            <li>Ad-free listening</li>
+            <li>Audio quality features</li>
+            <li>Download music</li>
+            <li>Pick and play song on-demand</li>
+            <li>Personalized Stations and playlists</li>
+            <li>Unlimited skips</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>YouTube Music</th>
+        <td>
+          <ul>
+            <li>Ad-free listening/viewing</li>
+            <li>Download music</li>
+            <li>Background play</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>Pandora</th>
+        <td>
+          <ul>
+            <li>Ad-free listening</li>
+            <li>Better audio quality</li>
+            <li>More skips</li>
+            <li>Customizable playlists</li>
+            <li>Offline listening</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>Musicboard</th>
+        <td>
+          <ul>
+            <li>More features on user profile</li>
+            <li>Unlimited length on reviews</li>
+            <li>Unlimited length on list descriptions</li>
+            <li>Lists have personal banners</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>Makromusic</th>
+        <td>
+          <ul>
+            <li>Filter matches</li>
+            <li>More profile matches</li>
+            <li>Filter explore page</li>
+            <li>Notification when someone listens to a favorited song</li>
+            <li>Match ratio statistic of matches</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </div>
 
-<h2>Sources</h2>
-<div style="text-indent: -36px; padding-left: 36px;">
-  <p>
-  Curry, David. “Music Streaming App Revenue and Usage Statistics (2023).” <cite>Business of Apps</cite>, 1 Feb. 2023, https://www.businessofapps.com/data/music-streaming-market/.
-  </p>
-  <p>
-  Janata, Petr, et al. “Characterisation of Music-Evoked Autobiographical Memories.” <cite>Memory</cite>, vol. 15, no. 8, 21 Nov. 2007, pp. 845–860., https://doi.org/10.1080/09658210701734593. 
-  </p>
-  <p>
-  Jäncke, Lutz. “Music, Memory and Emotion.” <cite>Journal of Biology</cite>, vol. 7, no. 6, 8 Aug. 2008, p. 21., https://doi.org/10.1186/jbiol82. 
-  </p>
-  <p>
-  Lüders, Marika. “Pushing Music: People’s Continued Will to Archive versus Spotify’s Will to Make Them Explore.” <cite>European Journal of Cultural Studies</cite>, vol. 24, no. 4, 2019, pp. 952–969., https://doi.org/10.1177/1367549419862943. 
-  </p>
-  <p>
-  Van Dijck, José. “Record and Hold: Popular Music between Personal and Collective Memory.” <cite>Critical Studies in Media Communication</cite>, vol. 23, no. 5, 14 Dec. 2006, pp. 357–374., https://doi.org/10.1080/07393180601046121.
-  </p>
-</div>
+  <h2>User Research</h2>
+  <div>
+    <h3>Secondary Sources</h3>
+    <div>
+      <p>
+        For part of my user research, I analyzed data collected by two studies that have interviewed and surveyed people about their experiences with music. 
+        The studies I analyze data from are “Record and Hold: Popular Music between Personal and Collective Memory” by Dijck and “Pushing music: People’s 
+        continued will to archive versus Spotify’s will to make them explore” by Lüders. Analyzing digital records will provide an overview of the music 
+        experience from a music listener’s perspective while interview data will provide in-depth understanding of what participants think about specific 
+        aspects of the music listening experience and reveal common keywords in regards to these experiences.
+      </p>
+      <h4>Dutch Top 2000 Narrative Responses</h4>
+      <div>
+        <p>
+          In Dijck’s study “Record and Hold: Popular Music between Personal and Collective Memory”, Dijck analyzed an online set of narrative responses 
+          generated through the Dutch Top 2000, a national radio-event. This radio event organizes a five-day broadcast of the 2000 most popular songs of 
+          all times, compiled by public radio listeners. During the event, the station asks for personal comments from listeners, which involve evaluations 
+          and memories of the songs. The comments range from in the moment, physical experiences to reminiscing on past memories.
+        </p>
+        <p>
+          There are many comments that Dijk quotes in this study. I drew the following keywords to categorize the various types of comments: technology, 
+          mood, memory, family, and collective. Below is a table that ties quotes from comments that fit these keywords.
+        </p>
+        <table>
+          <tr>
+            <th colspan="2">Table 4: Keyword Categories from Dijk's Study on Dutch Top 2000's 2004 Database</th>
+          </tr>
+          <tr>
+            <th>Categories</th>
+            <th>Comments</th>
+          </tr>
+          <tr>
+            <th>Mood</th>
+            <td>
+              <ul>
+                <li>“elicits the ultimate Sunday-afternoon feeling”</li>
+                <li>“a feeling I associate with cigarette smoke”</li>
+                <li>“There are moments in life that you feel thoroughly, profoundly happy. This was such a moment”</li>
+                <li>“The intense sorrow I felt that night was expressed in Bono’s intense screams”</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th>Memory</th>
+            <td>
+              <ul>
+                <li>“I isolated myself from my family by putting on the headphones and listening to this song”</li>
+                <li>“I was waiting on a boat someplace in Norway when I heard this song for the first time”</li>
+                <li>“the peaceful tidal waves in the fjord matching the melodious waves of music”</li>
+                <li>“I can see a picture of my grandmother’s living room”</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th>Technology</th>
+            <td>
+              <ul>
+                <li>“I keep most songs on CDs”</li>
+                <li>“I have the entire list of songs stored in MP3 format on the hard disk of my PC”</li>
+                <li>“pushing the little Lenco-speakers against my ear”</li>
+                <li>“both cars had their own iPods attached to the stereo system”</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th>Family</th>
+            <td>
+              <ul>
+                <li>“my father brought her this album as a present”</li>
+                <li>“I would sing along with [my father] every Doors’ song”</li>
+                <li>“my father passed on to me was his musical taste”</li>
+                <li>“I only found out about my parents’ story several years ago”</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th>Collective</th>
+            <td>
+              <ul>
+                <li>“half a dozen of my class mates drove to France to celebrate our high school graduation”</li>
+                <li>“reunion and I’m sure we’ll bring our iPods along”</li>
+                <li>“we sang along as loud as we could”</li>
+                <li>“with a number of friends I organized disco events”</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <p>
+          Mood encompasses emotions and general sensations the person feels when they listen to a song. Memory describes specific scenes the person remembers 
+          when they hear a song. Technology describes the type of recording technology that existed during the time the person remembers the song. Family shows 
+          a connection between family members through shared stories. Collective describes social activities people remember when they listen to music.
+        </p>
+      </div>
+      <h4>User Experience with Spotify</h4>
+      <div>
+        <p>
+          Lüders’ “Pushing music: People’s continued will to archive versus Spotify’s will to make them explore” is a case study on the user experience for 
+          the music streaming service app Spotify. The study conducted interviews to examine how people express their needs for exploring and archiving music.
+        </p>
+        <p>
+          For exploring music, a recurring theme among participants is the easy access to vast music libraries. This made them more inclined to exploring 
+          and discovering music. One participant described how Spotify encouraged them to become more open to music they would not have listened to in the past. 
+          The second way participants explore music in Spotify is by seeing what their friends are listening to by looking at the friend feeds feature in the app. 
+          The third way of exploring music is through the recommendation algorithm. The recommendation algorithm similarly helped some participants open up 
+          their tastes in music genres.
+        </p>
+        <p>
+          For archiving music, many participants felt that Spotify’s features for saving and collecting music was inferior to physical collections or digital 
+          collections of music as local files. The participants expressed that saving music involved the user knowing about the feature and actively using the 
+          feature to save music. One participant expressed that they have to actively remind themselves to remember the artist they just listened to before they 
+          move on to listening to other artists. Another participant preferred the nostalgia of having their own material collections of their favorite artists 
+          and albums on their iPhone and physical CDs.
+        </p>
+        <p>
+          Spotify does offer the function to create playlists, which users use as a means to save music. Participants’ reasons for creating playlists go beyond 
+          just creating a digital archive. Participants want to remember certain phases of their life or express a particular mood. One participant explained that 
+          they used playlists as a way to link personal meanings in their life to music: “when I was 14, that was the time I loved hip-hop.” Another participant 
+          created multiple playlists for different moods and environments: “I have several work-playlists that I have in the background while working.”
+        </p>
+      </div>
+    </div>
+    <h3>User Interviews</h3>
+    <div>
+      <p>
+        After analyzing secondary sources to understand a sample of the population’s relationship with music, I conducted interviews with two people. 
+        My interview questions were focused on understanding the past and present relationships between the participants and music.
+      </p>
+      <h4>Interview 1</h4>
+      <div>
+        <p>
+          My first participant is someone in the elderly age group above 60 years.
+          <ol>
+            <li>Do you think music has an important role in your life? Explain?
+              <ul>
+                <li>
+                  The participant thought that music plays a major role in his life. He listens to music everywhere he goes while performing various 
+                  activities such as driving, walking, and biking. He regarded music as a form of pleasure and relaxation.
+                </li>
+              </ul>
+            </li>
+            <li>What kind of music do you listen to?
+              <ul>
+                <li>
+                  He enjoys listening to 50s rock & roll. When it comes to listening to music on the radio, he prefers tuning into oldies stations. 
+                  When it comes to the CDs he owns, he likes 60s and 70s rock music.
+                </li>
+              </ul>
+            </li>
+            <li>Do you have a special memory related to music?
+              <ul>
+                <li>
+                  The participant laughed and remembered the hit song “Wake Up Maggie” by Rod Stewart back in the early 70s. He associated the song with 
+                  the event of him going to college for the first time.
+                </li>
+              </ul>
+            </li>
+            <li>How did you listen to music when you were younger?
+              <ul>
+                <li>
+                  In his teens, everyone used record players to listen to music. He and his friends would buy 45 RPM records and bring them around. 
+                  In his early teens, he would go to parties or visit a friend’s home and bring a stack of 45s to play music. In his later teens, the 
+                  Beatles just came out and were very popular. He and his friends bought their records and would go over to a friend’s house to closely 
+                  analyze the music and try to figure out the lyrics.
+                </li>
+              </ul>
+            </li>
+            <li>How do you listen to music today?
+              <ul>
+                <li>
+                  The participant currently uses Apple Music to collect and listen to music. He explained that if there is a song he likes, he would like 
+                  the song and add it to his song library.
+                </li>
+              </ul>
+            </li>
+            <li>Is there anything about listening to music today that you miss from the past?
+              <ul>
+                <li>
+                  The participant did not feel dissatisfied with his music listening experience in the current day. The only thing he misses about the past 
+                  is being young.
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </p>
+      </div>
+      <h4>Interview 2</h4>
+      <div>
+        <p>
+          The second participant is in the middle-aged group below 60 years.
+          <ol>
+            <li>Do you think music has an important role in your life? Explain?
+              <ul>
+                <li>
+                  The participant thought music was important in their life. She thinks of music as a way to relax and as an outlet for emotions.
+                </li>
+              </ul>
+            </li>
+            <li>What kind of music do you listen to?
+              <ul>
+                <li>
+                  The participant has no preference in what music she enjoys listening to. She instead keeps up with current music trends.
+                </li>
+              </ul>
+            </li>
+            <li>Do you have a special memory related to music?
+              <ul>
+                <li>
+                  The participant recalled a distant memory from her youth. The participant was raised in Taiwan and recalled when she would 
+                  accompany her mother to listen to music. Her mother preferred listening to Chinese music that was created during the WWII era. 
+                  The participant also described how the singers would wear traditional clothing called qipao and had a cautious posture on stage 
+                  unlike today where singers actively perform on stage.
+                </li>
+              </ul>
+            </li>
+            <li>How did you listen to music when you were younger?
+              <ul>
+                <li>
+                  She mainly mentioned the radio. Vinyls were not as popular where she was because the machine used to listen to vinyl was expensive. 
+                  She explained that music was played on a radio in public places. Thus, everyone could listen to the music together. She also mentioned 
+                  a special radio that could play tapes. If either her or her friends had certain tapes, they would meet up to play the songs together on the radio.
+                </li>
+              </ul>
+            </li>
+            <li>How do you listen to music today?
+              <ul>
+                <li>
+                  The participant currently uses the Spotify app and the internet to search for and listen to music. She explained that she sometimes uses 
+                  YouTube to first search for old songs that she may or may not be familiar with, then find them again on the Spotify app to listen to.
+                </li>
+              </ul>
+            </li>
+            <li>Is there anything about listening to music today that you miss from the past?
+              <ul>
+                <li>
+                  She expressed that she is satisfied with listening to music on apps today. The participant also mentioned that the experience of listening 
+                  to music changes over time. She explained that in the past, music was a more shared experience where she used a radio to listen to music with 
+                  a group of friends. In comparison, today she can enjoy music in private.
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </p>
+      </div>
+    </div>
+    <h3>Analysis of User Research</h3>
+    <div>
+      <h4>Secondary Sources Analysis</h4>
+      <div>
+        <p>
+          Analyzing the quotes collected from the Dutch Top 2000 in Dijk’s study, I categorized overarching themes as keywords based on the context of 
+          the comments: mood, memory, technology, family, and collective. I found that these keywords often overlap with each other because memories are 
+          complex and can contain the other keywords within it. For example: one comment encompassed a memory of listening to music with friends with 
+          iPods in the car. By recognizing these keywords as well as how they overlap, I got information about how to execute features to allow users 
+          of my app to express their memories with music.
+        </p>
+        <p>
+          From the case study on user experiences with the Spotify app, I learned what users liked about the app and what they thought was lacking in 
+          their listening experience with the app. Materially, users can archive and save their favorite music to return to later. Emotionally, users 
+          create playlists to record memories, reflect emotions, or express phases in their life. By understanding how users feel about playlists, 
+          I can develop a way to enhance the experience of creating playlists to the users of my app.
+        </p>
+      </div>
+      <h4>User Interviews Analysis</h4>
+      <div>
+        <p>
+          I learned from these interviews that there is a special difference between the experiences of listening to music in a group compared to in private. 
+          In a group, the experience is remembered as a fond memory involving friends and the technology used during that time. Individually, the experience 
+          is more personal, involving daily life routines or reflecting one’s mood. By understanding these differences in music experiences, I can develop 
+          a better understanding of the user personas I will create that will use my app.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <h2>User Personas</h2>
+  <div>
+    <p>
+      I created three user personas to represent the users I intend to target with the app I will create. Below is one of the three personas.
+    </p>
+    <img src="images/persona1.png">
+    <h3>Scenario and Journey Map: Reflection</h3>
+  </div>
+
+  <h2>Low Fidelity Prototype Sketch</h2>
+  <div>
+    <h3>Design Requirements</h3>
+    <h3>Task Wireflows</h3>
+    <div>
+      <h4>Create the Playlist</h4>
+      <h4>Add Song to Playlist</h4>
+      <h4>Edit and Save the Playlist</h4>
+    </div>
+    <h3>Wireflow Summary</h3>
+    <h3>User Wireflow Test</h3>
+    <div>
+      <h4>User 1</h4>
+      <h4>User 2</h4>
+      <h4>Wireflow Test Conclusion</h4>
+    </div>
+  </div>
+
+  <h2>Interface Design</h2>
+  <div>
+    <h3>Version 1</h3>
+    <h3>Version 2</h3>
+    <h3>Impression Test</h3>
+  </div>
+
+  <h2>High Fidelity Prototype</h2>
+  <div>
+    <h3>Version 1 Prototype</h3>
+    <h3>Version 1 Usability Testing</h3>
+    <h3>Version 2 Prototype</h3>
+    <h3>Version 2 Usability Testing</h3>
+  </div>
+
+  <h2>Conclusion</h2>
+  <div>
+
+  </div>
+
+  <h2>Sources</h2>
+  <div style="text-indent: -36px; padding-left: 36px;">
+      <p>
+      Curry, David. “Music Streaming App Revenue and Usage Statistics (2023).” <cite>Business of Apps</cite>, 1 Feb. 2023, https://www.businessofapps.com/data/music-streaming-market/.
+      </p>
+      <p>
+      Janata, Petr, et al. “Characterisation of Music-Evoked Autobiographical Memories.” <cite>Memory</cite>, vol. 15, no. 8, 21 Nov. 2007, pp. 845–860., https://doi.org/10.1080/09658210701734593. 
+      </p>
+      <p>
+      Jäncke, Lutz. “Music, Memory and Emotion.” <cite>Journal of Biology</cite>, vol. 7, no. 6, 8 Aug. 2008, p. 21., https://doi.org/10.1186/jbiol82. 
+      </p>
+      <p>
+      Lüders, Marika. “Pushing Music: People’s Continued Will to Archive versus Spotify’s Will to Make Them Explore.” <cite>European Journal of Cultural Studies</cite>, vol. 24, no. 4, 2019, pp. 952–969., https://doi.org/10.1177/1367549419862943. 
+      </p>
+      <p>
+      Van Dijck, José. “Record and Hold: Popular Music between Personal and Collective Memory.” <cite>Critical Studies in Media Communication</cite>, vol. 23, no. 5, 14 Dec. 2006, pp. 357–374., https://doi.org/10.1080/07393180601046121.
+      </p>
+  </div>
+</body>
